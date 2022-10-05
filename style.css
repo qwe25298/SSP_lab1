@@ -1,0 +1,17 @@
+
+#name {
+    border: solid 0.3em;
+    border-color: green;
+    
+}
+
+#surname {
+    border: solid 0.3em;
+    border-color: green;
+    
+}
+
+#cvv_code {
+    background-color:red
+
+}

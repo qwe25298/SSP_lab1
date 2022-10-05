@@ -1,0 +1,38 @@
+<html>
+<title> javascript.htm</title>
+<script type="text/javascript">
+
+function sol () {
+
+let form = document.forms.my;
+let a1 = form.querySelector('[name="ffirst"]').value
+let a2 = form.querySelector('[name="fsecond"]').value
+let b1 = form.querySelector('[name="sfirst"]').value
+let b2 = form.querySelector('[name="ssecond"]').value
+console.log (a1,a2,b1,b2)
+
+let res = Math.sqrt((b1-a1)*(b1-a1)+(b2-a2)*(b2-a2));
+
+alert (res)
+}
+
+function test () {
+
+console.log ("qwe")
+}
+
+</script>
+
+
+<body>
+
+<form name="my">
+<p> Первая точка (<input type="text" name="ffirst" size="1">; <input type="text" name="fsecond" size="1"> ) </p>
+<p> Вторая точка (<input type="text" name="sfirst" size="1">; <input type="text" name="ssecond" size="1"> ) </p>
+<input type="button" value="Вычислить" onclick="sol ()">
+
+</form>
+
+</body>
+
+</html>

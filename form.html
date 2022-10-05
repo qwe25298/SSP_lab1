@@ -1,0 +1,60 @@
+<html>
+    <title> forms.htm</title>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body >
+<form>
+    
+  <p id="name">  
+    Имя  
+ <input type="text" name="Myname">
+
+</p>
+
+<p id="surname"> 
+      Фамилия  
+    <input type="text">
+</p>
+
+</head>
+Способ оплаты:
+<select name="payment"> 
+    <option value=”s”> наличный
+    <option value=”a”> безналичный
+</select>
+<p>
+Ваш адрес 
+ 
+<input type="text" name="Adress">
+
+</p>
+<p id="cvv_code">
+CVV карты: <input type="password" name="cvv">
+</p>
+<p>
+    Опции доставки: 
+    <p><input type="checkbox" name="a"> Курьером</p>
+   <p><input type="checkbox" name="a"> Самовывоз</p>
+    </p>
+
+    <p>
+        Доп сведение заказа:
+        <textarea name=”details” rows=”1” cols=”50”> Ваш заказ №1488 </textarea>
+
+    </p>
+
+
+    <p>
+        Заказанный товар: ...
+    </p>
+
+
+    <p><input type="submit" value=" Отправить "></p>
+    <p><input type="reset" value=" Очистить "></p>
+
+
+</form>
+</body>
+
+</html>
